@@ -22,17 +22,23 @@ Install Fairseq:
 ~~~~
 pip install fairseq
 ~~~~
-Installation with the HuggingFace submodule:
+Installation of this repo with the HuggingFace submodule:
 ~~~~
 git clone --recurse-submodules https://github.com/cadia-lvl/punctuation-prediction
 cd transformers
 pip install .
 ~~~~
 
+If you have already cloned this repo then install the HuggingFace submodule like this:
+~~~~
+git submodule init
+git submodule update
+~~~~
+
 ## Licence
 MIT License
 
-Copyright (c) 2020 Language and Voice Lab
+Copyright (c) 2020 Language and Voice Lab at Reykjavik University
 
 ## Citation
 
